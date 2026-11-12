@@ -235,11 +235,11 @@ export function WorkCard({ work }) {
               Live site <ArrowUpRight size={14} />
             </a>
           )}
-          {work.source && (
+          {/* {work.source && (
             <a href={work.source} target="_blank" rel="noopener noreferrer">
               Repository <ArrowUpRight size={14} />
             </a>
-          )}
+          )} */}
           {storyUrl && (
             <Link to={storyUrl} className="work-card-story-link">
               Field note <ArrowRight size={14} />
